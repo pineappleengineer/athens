@@ -18,6 +18,8 @@ loopSound: loopHover
 targetable: false
 vulnerableWithPayloads: false
 payloadCapacity: 256.0
+vulnerableWithPayloads: true
+hitSize: 12.0
 
 abilities: [
     {
