@@ -1,4 +1,4 @@
 # athens
-a mod about a icey planet that you have to defend yourself from something, inspired by omaloon. still a work-in-progress, once blocks are finished, ill get to work on campaigns
+a mod about a snowy planet with an unholy amount of plants, and i guess something to defend from
 
-bushmans rules
+currently in heavy development, go try echo fleet or something
