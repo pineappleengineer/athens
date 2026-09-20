@@ -1,0 +1,6 @@
+type: Item
+color: 555b6a
+hardness: 0.1
+flammability: -0.1
+name: Solid Alloy
+description: A strong and cold alloy molded from gallium, used for building and as ammo for turrets

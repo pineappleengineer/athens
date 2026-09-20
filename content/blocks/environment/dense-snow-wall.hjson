@@ -1,0 +1,4 @@
+type: StaticWall
+large: cold-snow-wall-large
+variants: 2
+variantRegions: [cold-snow-wall1, cold-snow-wall2]

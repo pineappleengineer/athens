@@ -1,0 +1,42 @@
+type: payload
+uiIcon: flu-full
+fullIcon: flu-full
+region: flu
+cellRegion: flu-cell
+outlineColor: 2d2f39
+description: "The first core unit, attempts to protect the Fissile Core, can pickup payloads.
+
+Has the ability to build, [red]but cannot heal.[]"
+
+flying: true
+speed: 5
+accel: 0.1
+drag: 0.1
+buildSpeed: 1.3
+engineSize: 0.0
+loopSound: loopHover
+targetable: false
+vulnerableWithPayloads: false
+payloadCapacity: 256.0
+
+abilities: [
+    {
+      type: SuppressionFieldAbility
+      color: ffd27eff
+      particleColor: ffe2acff
+      effectColor: ffdd9eff
+      range: -1.0
+      orbRadius: 2.0
+      particles: 10.0
+      particleSize: 1.0
+      particleLife: 60.0
+      active: false
+      particleLen: 1.0
+      orbMidScl: 0.5
+    }
+    {
+      type: MoveEffectAbility
+      color: ffd27eff
+      effect: missileTrailShort
+    }
+  ]

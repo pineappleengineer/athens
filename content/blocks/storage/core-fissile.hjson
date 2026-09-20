@@ -1,0 +1,19 @@
+type: CoreBlock
+name: Core: Fissile
+description: the nest.
+
+//yo why does this core look like a core bastion
+
+requirements: [
+  solid-alloy/1200
+]
+
+region: core-fissile
+uiIcon: core-fissile-full
+fullIcon: core-fissile-full
+teamRegion: core-fissile-team
+unitType: flu
+isFirstTier: true
+size: 4
+alwaysUnlocked: true
+itemCapacity: 3000
