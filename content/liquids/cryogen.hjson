@@ -1,0 +1,12 @@
+type: Liquid
+name: Cryogen
+description: "[#7f9ace]Not to be confused of Cryofluid...[]
+
+Can be collected from rains, rivers, or from ice cracks. Used as coolant in turrets, factories, and generators."
+explosiveness: 0
+flammability: 0
+heatCapacity: 0.65
+viscosity: 0.3
+temperature: 0.1
+color: b2caf7
+coolant: true
