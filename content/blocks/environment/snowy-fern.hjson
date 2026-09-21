@@ -1,7 +1,0 @@
-type: SeaBush
-
-spread: 5.0
-region: fern
-botRegion: fern-bot
-lobesMin: 4.0
-lobesMax: 6.0
