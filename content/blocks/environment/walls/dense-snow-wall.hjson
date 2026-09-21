@@ -1,0 +1,4 @@
+type: StaticWall
+large: dense-snow-wall-large
+variants: 3
+variantRegions: [dense-snow-wall1, dense-snow-wall2, dense-snow-wall3]

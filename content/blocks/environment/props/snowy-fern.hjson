@@ -1,0 +1,7 @@
+type: SeaBush
+
+spread: 3.5
+region: snowy-fern
+botRegion: snowy-fern-bot
+lobesMin: 4.0
+lobesMax: 6.0
