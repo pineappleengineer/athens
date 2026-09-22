@@ -6,4 +6,4 @@ description: "a mod about a snow-ish planet with plant life and... [[]red]other 
 [[]#7799f]dont expect alot from this mod, under development[[]]"
 version: "this is called"
 minGameVersion: "160.1"
-dependencies: [ ]
+hidden: true
