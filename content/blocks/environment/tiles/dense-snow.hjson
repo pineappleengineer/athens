@@ -1,4 +1,4 @@
 type: Floor
 status: thick-snow
-variants: 3
-variantRegions: [dense-snow1, dense-snow2, dense-snow3]
+variants: 4
+variantRegions: [dense-snow1, dense-snow2, dense-snow3, dense-snow4]
