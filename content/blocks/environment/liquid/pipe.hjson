@@ -1,0 +1,6 @@
+type: Conduit
+name: Pipe
+description: "Moves liquids. However, no arrows to tell where it's pointing at."
+topRegions: [pipe-top-0, pipe-top-1, pipe-top-2, pipe-top-3, pipe-top-4]
+botRegions: [pipe-bottom-0, pipe-bottom-1, pipe-bottom-2, pipe-bottom-3, pipe-bottom-4]
+capRegion: pipe-cap
