@@ -3,4 +3,3 @@ description: "Happens when walking on dense snow. Ignored if ground units can wa
 speedMultiplier: 0.5
 color: f7fcff
 outline: false
-hideDetails: false
