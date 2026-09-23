@@ -1,0 +1,4 @@
+type: StatusEffect
+description: "Happens when walking on dense snow. Ignored if ground units can walk over terrain or hovers."
+speedMultiplier: 0.75
+outline: false
