@@ -1,0 +1,12 @@
+type: Conduit
+name: Pipe
+category: liquid
+description: "Moves liquids. However, [red]does not show what liquid it's moving.[]"
+
+topRegions: [pipe-top-0, pipe-top-1, pipe-top-2, pipe-top-3, pipe-top-4]
+botRegions: [pipe-bottom-0, pipe-bottom-1, pipe-bottom-2, pipe-bottom-3, pipe-bottom-4]
+capRegion: pipe-cap
+
+requirements: [solid-alloy/2]
+leaks: true
+underBullets: true
