@@ -1,3 +1,5 @@
 type: Floor
 region: derelict-blank-tiles
 variants: 0
+drawEdgeIn: false
+drawEdgeOut: false

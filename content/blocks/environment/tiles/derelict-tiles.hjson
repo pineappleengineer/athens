@@ -1,3 +1,5 @@
 type: Floor
 variants: 6
 variantRegions: [derelict-tiles1, derelict-tiles2, derelict-tiles3, derelict-tiles4, derelict-tiles5, derelict-tiles6]
+drawEdgeIn: false
+drawEdgeOut: false

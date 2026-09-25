@@ -1,6 +1,8 @@
 type: Floor
 region: derelict-light-on
 variants: 0
-lightColor: ffffff
+lightColor: ffffffa0
 emitLight: true
-lightRadius: 60
+lightRadius: 30
+drawEdgeIn: false
+drawEdgeOut: false

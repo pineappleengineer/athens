@@ -1,3 +1,5 @@
 type: Floor
 region: derelict-tiles-small-vent
 variants: 0
+drawEdgeIn: false
+drawEdgeOut: false
