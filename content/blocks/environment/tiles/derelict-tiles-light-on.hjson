@@ -1,0 +1,6 @@
+type: Floor
+variantRegions: [derelict-tiles-light-on]
+variants: 1
+lightColor: ffffff
+emitLight: true
+lightRadius: 60
