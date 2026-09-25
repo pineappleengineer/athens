@@ -1,0 +1,6 @@
+type: Wall
+name: Solid Alloy Wall
+category: defense
+description: "A dense, lightly armoured wall."
+health: 1030
+armor: 6

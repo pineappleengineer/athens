@@ -10,3 +10,4 @@ viscosity: 0.5
 temperature: 0.1
 color: b2caf7
 coolant: true
+effect: freezing
