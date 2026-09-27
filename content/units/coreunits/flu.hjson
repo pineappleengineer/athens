@@ -3,17 +3,17 @@ uiIcon: flu-full
 fullIcon: flu-full
 region: flu
 cellRegion: flu-cell
-outlineColor: 2d2f39
-description: "The first core unit, attempts to protect the Fissile Core, can pickup payloads.
+outlineColor: 121418
+description: "The first core unit, attempts to protect the Fissile Core, can pickup small payloads.
 
-Has the ability to build, [red]but cannot heal.[]"
+Equipped with a [accent]blowtorch[] for damaging enemies or healing ally blocks."
 
 flying: true
 speed: 5
 accel: 0.1
 drag: 0.1
 buildSpeed: 1.3
-engineSize: 0.0
+engineSize: 0.5
 loopSound: loopHover
 targetable: false
 vulnerableWithPayloads: false
@@ -21,24 +21,36 @@ payloadCapacity: 256.0
 vulnerableWithPayloads: true
 hitSize: 9.0
 
-abilities: [
-    {
-      type: SuppressionFieldAbility
-      color: ffd27eff
-      particleColor: ffe2acff
-      effectColor: ffdd9eff
-      range: -1.0
-      orbRadius: 2.0
-      particles: 10.0
-      particleSize: 1.0
-      particleLife: 60.0
-      active: false
-      particleLen: 1.0
-      orbMidScl: 0.5
-    }
-    {
-      type: MoveEffectAbility
-      color: ffd27eff
-      effect: missileTrailShort
-    }
-  ]
+weapons: [
+  {
+  x: 0.0
+  bullet: {
+    type: ContinuousFlameBulletType
+    colors: [
+      ffd27eff
+      ffe0a5ff
+      ffe8bdff
+      fff1d7ff
+      ffffffff
+    ],
+    drawFlare: false
+    length: 25.0
+    width: 1.0
+    flareColor: 00000000
+    hitColor: ffd17dff
+    healColor: ffd17dff
+    status: melting
+    shootEffect: colorSpark
+    smokeEffect: coalSmeltsmoke
+    healPercent: 5.0
+    damage: 10.0
+    buildingDamageMultiplier: 0.2
+    hitEffect: disperseTrail
+  },
+  alwaysContinuous: true
+  continuous: true
+  initialShootSound: shootBeamPlasmaSmall
+  shootSound: shootSublimate
+  y: 4.0
+  }
+]
