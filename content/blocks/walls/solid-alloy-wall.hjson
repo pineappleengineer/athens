@@ -4,5 +4,6 @@ category: defense
 description: "A dense, lightly armoured wall."
 health: 960
 armor: 6
+size: 1
 
 requirements: [solid-alloy/12]
