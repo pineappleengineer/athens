@@ -1,7 +1,5 @@
 type: CoreBlock
 name: Core: Fissile
-uiIcon: core-fissile-full
-fullIcon: core-fissile-full
 health: 2600
 armor: 6
 description: "Core of the base, lightly armoured."
