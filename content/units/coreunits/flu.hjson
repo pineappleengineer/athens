@@ -6,7 +6,7 @@ cellRegion: flu-cell
 outlineColor: 121418
 description: "The first core unit, attempts to protect the Fissile Core, can pickup small payloads.
 
-Equipped with a [accent]blowtorch[] for damaging enemies or healing ally blocks."
+Equipped with a [accent]blowtorch[] for damaging enemies or healing ally buildings."
 
 health: 360
 armor: 4
@@ -20,18 +20,29 @@ targetable: true
 payloadCapacity: 256.0
 hitSize: 9.0
 
+engines: [
+  {
+    y: -8.0
+    radius: 2.0
+    rotation: -90.0
+  }
+]
+trailLength: 6.5
+engineOffset: 8.0
+engineSize: 2.0
+
 weapons: [
   {
   x: 0.0
   bullet: {
     type: ContinuousFlameBulletType
     colors: [
-      ffd27eff
-      ffe0a5ff
-      ffe8bdff
-      fff1d7ff
+      ffbe46ff
+      ffcc6dff
+      ffdfa4ff
+      ffedccff
       ffffffff
-    ],
+    ]
     drawFlare: false
     length: 25.0
     width: 1.0
