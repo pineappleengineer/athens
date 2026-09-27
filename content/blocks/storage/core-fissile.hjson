@@ -3,7 +3,7 @@ name: Core: Fissile
 health: 2600
 armor: 6
 description: "Core of the base, lightly armoured."
-details: "The first tier of a derelict explorationm has thrusters for interplanatary launch."
+details: "The first tier of a derelict exploration core, has thrusters for interplanatary launch."
 category: effect
 
 requirements: [
