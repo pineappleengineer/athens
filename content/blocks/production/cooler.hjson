@@ -1,6 +1,8 @@
 type: GenericCrafter
 
 
+size: 4
+category: crafting
 consumes: {
     liquids: [
         alt-gallium/1

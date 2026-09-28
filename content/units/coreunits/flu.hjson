@@ -36,6 +36,7 @@ weapons: [
   x: 0.0
   bullet: {
     type: ContinuousFlameBulletType
+    lightColor: ffbe46ff
     colors: [
       ffbe46ff
       ffcc6dff

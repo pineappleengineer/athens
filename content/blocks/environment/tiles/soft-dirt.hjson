@@ -1,0 +1,3 @@
+type: Floor
+variants: 4
+variantRegions: [soft-dirt1, soft-dirt2, soft-dirt3, soft-dirt4]
