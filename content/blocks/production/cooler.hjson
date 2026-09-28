@@ -1,0 +1,8 @@
+type: GenericCrafter
+
+
+consumes: {
+    liquid: alt-gallium
+    power: 0.1
+}
+outputItems: [solidifed-gallium/1]
