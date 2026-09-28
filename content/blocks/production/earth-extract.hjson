@@ -1,0 +1,6 @@
+type: AttributeCrafter
+size: 3
+attribute: earthen
+outputItems: [
+    copper/2
+]

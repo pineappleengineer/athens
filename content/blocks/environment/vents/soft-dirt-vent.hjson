@@ -1,0 +1,11 @@
+type: SteamVent
+parent: soft-dirt
+blendGroup: soft-dirt
+variants: 0
+region: soft-dirt-vent1
+variantRegions: [soft-dirt-vent1]
+effect: none
+
+attributes: {
+    earthen: 1
+}
