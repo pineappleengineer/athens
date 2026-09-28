@@ -1,9 +1,8 @@
 type: SteamVent
 parent: soft-dirt
 blendGroup: soft-dirt
-variants: 0
-region: soft-dirt-vent1
-variantRegions: [soft-dirt-vent1]
+variants: 2
+variantRegions: [soft-dirt-vent1, soft-dirt-vent2]
 effect: none
 
 attributes: {

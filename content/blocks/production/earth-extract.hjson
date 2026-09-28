@@ -1,6 +1,8 @@
 type: AttributeCrafter
 size: 3
 attribute: earthen
+minEfficiency: 8.9999
+baseEfficiency: 0
 outputItems: [
     copper/2
 ]
