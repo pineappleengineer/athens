@@ -1,0 +1,6 @@
+hidden: false
+description: "Often used for factories as a liquid.
+
+If solidifed, can be used as an ingredient for factories, building material, and ammo for certain turrets."
+
+details: ps gallium is a hidden liquid, this mod overrides the code of it to be shown in the database
