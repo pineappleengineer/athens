@@ -1,0 +1,10 @@
+type: Liquid
+name: Gallium
+description: "Often used for factories as a liquid.
+
+If solidifed, can be used as an ingredient for factories, building material, and ammo for certain turrets."
+details: can be turned from a liquid to a solid- IS THAT A METAL GEAR REFERENCE
+heatCapacity: 0.5
+temperature: 0.5
+viscosity: 0.5
+color: 9a9dbf
