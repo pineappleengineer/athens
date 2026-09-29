@@ -24,7 +24,7 @@ mesh: [
         colorOct: 1.5
         divisions: 5
         persistence: 0.5
-        mag: 1.1
+        mag: 0.5
       }
       //the river
       {
@@ -79,4 +79,4 @@ allowLaunchToNumbered: true
 defaultCore: core-fissile
 startSector: 0
 alwaysUnlocked: true
-orbitRadius: 100
+orbitRadius: 30
