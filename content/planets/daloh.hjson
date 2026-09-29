@@ -3,6 +3,7 @@ localizedName: Daloh
 mesh: [
   {
     type: NoiseMesh
+    seed: 1
     radius: 1
     color: "edf1f5"
     color2: "7c5d49"
@@ -13,8 +14,9 @@ mesh: [
   }
   {
     type: NoiseMesh
+    seed: 2
     radius: 1
-    color: "9ba1a7
+    color: "9ba1a7"
     color2: "7c5d49"
     colorOct: 1.3
     divisions: 5
