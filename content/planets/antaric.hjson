@@ -9,18 +9,18 @@ mesh: {
   mag: 1
   colorScale: 1.35
   colors: [
-    bcefff
-    a5d4e2
-    91c0ce
-    7ca6b3
+    95c2ec
+    7aa4cc
+    5f8ab3
+    517aa1
   ]
 }
-radius: 10
+radius: 6
 accessible: false
 visible: true
-hasAtmosphere: false
+hasAtmosphere: true
 bloom: true
-orbitSpacing: 10
+orbitSpacing: 1200
 solarSystem: antaric
 orbitRadius: 5
 parent: sun
