@@ -1,12 +1,28 @@
 localizedName: Daloh
 
-mesh: {
+mesh: [
+  {
     type: NoiseMesh
-    color2: "edf1f5"
-    color2: "c0c7ce"
+    color: "edf1f5"
+    color2: "7c5d49"
     colorOct: 1.3
     divisions: 4
-}
+    persistence: 1
+    mag: 1
+  }
+  {
+    type: HexSkyMesh
+    speed: 0.05
+    radius: 0.1
+    color: "edf1f5"
+  }
+  {
+    type: HexSkyMesh
+    speed: 0.1
+    radius: 0.1
+    color: "fafcfd"
+  }
+]
 
 parent: antaric
 drawOrbit: true
@@ -17,3 +33,4 @@ startSector: 0
 alwaysUnlocked: true
 solarSystem: antaric
 orbitRadius: 100
+atmosphereColor: 525252b2
