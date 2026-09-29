@@ -2,13 +2,13 @@ localizedName: Antaric
 
 mesh: {
   type: SunMesh
-  divisions: 5
+  divisions: 10
   octaves: 1
   persistence: 0.5
-  scl: 2
+  scl: 1
   pow: 1
-  mag: 1
-  colorScale: 1.35
+  mag: 0.5
+  colorScale: 1.5
   colors: [
     95c2ec
     7aa4cc
@@ -24,7 +24,7 @@ hasAtmosphere: false
 bloom: true
 orbitSpacing: 5000
 solarSystem: antaric
-orbitRadius: 30
+orbitRadius: 120
 parent: sun
 drawOrbit: false
 tidalLock: true
