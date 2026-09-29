@@ -19,7 +19,8 @@ mesh: [
   }
   {
     type: HexSkyMesh
-    color: d2e4f5
+    color: d2e4f5a4
+    radius: 0.15
     divisions: 3
     octaves: 1
     persistence: 0.5
