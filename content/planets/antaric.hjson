@@ -3,7 +3,7 @@ localizedName: Antaric
 mesh: [
     {
     type: SunMesh
-    divisions: 6
+    divisions: 5
     octaves: 1
     persistence: 0.5
     scl: 1
@@ -19,13 +19,13 @@ mesh: [
   }
   {
     type: HexSkyMesh
-    speed: 1.5
+    speed: 2.5
     seed: 1
-    color: f6f7fd5d
+    color: f6f7fd98
     radius: 0.05
-    divisions: 6
-    octaves: 0.1
-    persistence: 1.5
+    divisions: 5
+    octaves: 0.3
+    persistence: 2
   }
 ]
 
