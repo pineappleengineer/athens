@@ -24,9 +24,9 @@ hasAtmosphere: false
 bloom: true
 orbitSpacing: 5000
 solarSystem: antaric
-orbitRadius: 5
+orbitRadius: 1200
 parent: sun
-drawOrbit: true
+drawOrbit: false
 tidalLock: true
 iconColor: bcefff
 icon: commandRally
