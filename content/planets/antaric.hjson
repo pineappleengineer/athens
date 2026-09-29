@@ -21,21 +21,21 @@ mesh: [
     type: HexSkyMesh
     speed: 1
     seed: 1
-    color: d2e4f5a4
+    color: f7fafdf6
     radius: 0.1
-    divisions: 3
+    divisions: 6
     octaves: 1
-    persistence: 0.5
+    persistence: 1.5
   }
   {
     type: HexSkyMesh
     speed: 1
     seed: 2
-    color: dde8f3b9
+    color: f7fafdf6
     radius: 0.15
-    divisions: 3
+    divisions: 6
     octaves: 1
-    persistence: 0.5
+    persistence: 1.5
   }
 ]
 
