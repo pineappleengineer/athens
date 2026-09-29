@@ -19,10 +19,10 @@ mesh: [
   }
   {
     type: HexSkyMesh
-    speed: 5
-    seed: 1
-    color: b3d7f8ce
-    radius: 0.05
+    speed: 3.5
+    seed: 0.1
+    color: b3d7f86c
+    radius: 0.025
     divisions: 5
     octaves: 1
     persistence: 1
