@@ -12,7 +12,7 @@ mesh: {
     bcefff
   ]
 }
-radius: 2
+radius: 10
 accessible: false
 visible: true
 hasAtmosphere: true
@@ -21,7 +21,7 @@ orbitSpacing: 10
 solarSystem: antaric
 orbitRadius: 5
 parent: sun
-drawOrbit: false
+drawOrbit: true
 tidalLock: true
 iconColor: bcefff
 icon: commandRally
