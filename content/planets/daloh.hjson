@@ -29,6 +29,7 @@ mesh: [
       //the river
       {
         type: SunMesh
+        divisions: 5
         scl: 1
         colors: [
             a1bef5
@@ -68,7 +69,7 @@ mesh: [
 
 atmosphereColor: 2f30314b
 hasAtmosphere: true
-atmosphereRadIn: 0.5
+bloom: true
 radius: 1
 parent: antaric
 drawOrbit: true
