@@ -7,24 +7,24 @@ mesh: [
         {
         type: NoiseMesh
         seed: 1
-        radius: 0.95
+        radius: 0.98
         color1: "edf1f5"
         color2: "7c5d49"
         colorOct: 0.8
         divisions: 5
         persistence: 0.5
-        mag: 0
+        mag: 0.8
       }
       {
         type: NoiseMesh
         seed: 2
-        radius: 0.85
+        radius: 0.98
         color1: "9ba1a7"
         color2: "75787c"
         colorOct: 1.5
         divisions: 5
         persistence: 0.5
-        mag: 0.8
+        mag: 1.1
       }
       //the river
       {
