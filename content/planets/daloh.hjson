@@ -12,15 +12,15 @@ mesh: [
   }
   {
     type: HexSkyMesh
-    speed: 0.05
-    radius: 0.06
+    speed: 0.1
+    radius: 0.5
     color: "edf1f5"
     divisions: 4
   }
   {
     type: HexSkyMesh
-    speed: 0.1
-    radius: 0.1
+    speed: 0.2
+    radius: 0.65
     color: "fafcfd"
     divisions: 4
   }
