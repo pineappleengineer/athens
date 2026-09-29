@@ -10,3 +10,10 @@ capRegion: pipe-cap
 requirements: [solid-alloy/2]
 leaks: true
 underBullets: true
+
+shownPlanets: [daloh]
+research: {
+    planet: daloh
+    parent: core-fissile
+    requirements: [solid-alloy/4]
+}

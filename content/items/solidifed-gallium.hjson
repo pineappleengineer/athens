@@ -4,3 +4,8 @@ description: "Used for factories, building, and ammo for certain turrets.
 
 Can be turn back into a liquid."
 color: 9a9dbf
+
+shownPlanets: [daloh]
+research: {
+    planet: daloh
+}

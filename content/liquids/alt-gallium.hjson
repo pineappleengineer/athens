@@ -8,3 +8,8 @@ heatCapacity: 0.5
 temperature: 0.5
 viscosity: 0.5
 color: 9a9dbf
+
+shownPlanets: [daloh]
+research: {
+    planet: daloh
+}

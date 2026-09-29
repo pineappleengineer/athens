@@ -4,3 +4,8 @@ hardness: 0.1
 flammability: -0.1
 name: Solid Alloy
 description: A sturdy and cold alloy made from gallium and cryogen, used for building and as ammo for turrets
+
+shownPlanets: [daloh]
+research: {
+    planet: daloh
+}

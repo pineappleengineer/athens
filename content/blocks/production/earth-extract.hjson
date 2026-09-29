@@ -6,3 +6,8 @@ baseEfficiency: 0
 outputItems: [
     copper/2
 ]
+
+shownPlanets: [daloh]
+research: {
+    planet: daloh
+}

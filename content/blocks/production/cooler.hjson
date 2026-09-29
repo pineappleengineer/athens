@@ -9,4 +9,9 @@ consumes: {
     ]
     power: 0.1
 }
-outputItems: [solidifed-gallium/1]
+outputItems: [solidifed-gallium/0.1]
+
+shownPlanets: [daloh]
+research: {
+    planet: daloh
+}

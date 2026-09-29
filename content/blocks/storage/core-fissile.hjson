@@ -19,3 +19,10 @@ isFirstTier: true
 size: 4
 alwaysUnlocked: true
 itemCapacity: 3000
+
+shownPlanets: [daloh]
+research: {
+    planet: daloh
+    root: true
+    requiresUnlock: false
+}

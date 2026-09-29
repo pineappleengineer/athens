@@ -7,3 +7,9 @@ armor: 6
 size: 1
 
 requirements: [solid-alloy/12]
+
+shownPlanets: [daloh]
+research: {
+    planet: daloh
+    requirements: [solid-alloy/24]
+}
