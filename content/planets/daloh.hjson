@@ -7,20 +7,22 @@ mesh: [
     color2: "7c5d49"
     colorOct: 1.3
     divisions: 4
-    persistence: 1
+    persistence: 0.5
     mag: 1
   }
   {
     type: HexSkyMesh
     speed: 0.05
-    radius: 0.1
+    radius: 0.06
     color: "edf1f5"
+    divisions: 4
   }
   {
     type: HexSkyMesh
     speed: 0.1
     radius: 0.1
     color: "fafcfd"
+    divisions: 4
   }
 ]
 
