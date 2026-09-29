@@ -2,7 +2,10 @@ name: Daloh
 
 mesh: {
     type: NoiseMesh
-    color: ffffff
+    color2: "edf1f5"
+    color2: "c0c7ce"
+    colorOct: 1.3
+    divisions: 4
 }
 
 parent: antaric
