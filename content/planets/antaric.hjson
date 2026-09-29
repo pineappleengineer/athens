@@ -17,6 +17,8 @@ mesh: {
 }
 mesh: {
   type: HexSkyMesh
+  color: d6e4ff
+  seed: 1
   speed: 1
 }
 
