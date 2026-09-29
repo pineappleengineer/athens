@@ -15,12 +15,17 @@ mesh: {
     517aa1
   ]
 }
+mesh: {
+  type: HexSkyMesh
+  speed: 1
+}
+
 radius: 6
 accessible: false
 visible: true
 hasAtmosphere: true
 bloom: true
-orbitSpacing: 1200
+orbitSpacing: 5000
 solarSystem: antaric
 orbitRadius: 5
 parent: sun
