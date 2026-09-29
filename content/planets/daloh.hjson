@@ -7,33 +7,34 @@ mesh: [
     color: "edf1f5"
     color2: "7c5d49"
     colorOct: 1.3
-    divisions: 4
+    divisions: 8
     persistence: 0.5
     mag: 0.5
   }
+  //clouds and cryogenic rain clouds
   {
     type: HexSkyMesh
     seed: 2
     speed: 0.1
     radius: 0.45
     color: "c3e1ffa2"
-    divisions: 4
+    divisions: 8
+  }
+  {
+    type: HexSkyMesh
+    seed: 11
+    speed: 0.3
+    radius: 0.5
+    color: "edf1f598"
+    divisions: 8
   }
   {
     type: HexSkyMesh
     seed: 12
-    speed: 0.3
-    radius: 0.5
-    color: "edf1f598"
-    divisions: 4
-  }
-  {
-    type: HexSkyMesh
-    seed: 15
     speed: 0.45
     radius: 0.55
     color: "fafcfd5d"
-    divisions: 4
+    divisions: 8
   }
 ]
 
@@ -41,10 +42,10 @@ radius: 1
 parent: antaric
 drawOrbit: true
 accessible: true
-allowLaunchToNumbered: false
+allowLaunchToNumbered: true
 defaultCore: core-fissile
 startSector: 0
 alwaysUnlocked: true
 solarSystem: antaric
 orbitRadius: 100
-atmosphereColor: 525252b2
+atmosphereColor: 5252524b
