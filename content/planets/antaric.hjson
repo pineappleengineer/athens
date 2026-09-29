@@ -2,7 +2,7 @@ localizedName: Antaric
 
 mesh: {
   type: SunMesh
-  divisions: 10
+  divisions: 1
   octaves: 1
   persistence: 0.5
   scl: 1
@@ -22,9 +22,9 @@ accessible: false
 visible: true
 hasAtmosphere: false
 bloom: true
-orbitSpacing: 5000
+orbitSpacing: 60
 solarSystem: antaric
-orbitRadius: 120
+orbitRadius: 160
 parent: sun
 drawOrbit: false
 tidalLock: true
