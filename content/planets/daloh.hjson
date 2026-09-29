@@ -3,7 +3,7 @@ localizedName: Daloh
 mesh: [
   {
     type: NoiseMesh
-    radius: 0.95
+    radius: 1
     color: "edf1f5"
     color2: "7c5d49"
     colorOct: 1.3
@@ -11,10 +11,20 @@ mesh: [
     persistence: 0.5
     mag: 0
   }
+  {
+    type: NoiseMesh
+    radius: 1
+    color: "9ba1a7
+    color2: "7c5d49"
+    colorOct: 1.3
+    divisions: 5
+    persistence: 0.5
+    mag: 0.1
+  }
   //clouds and cryogenic rain clouds
   {
     type: HexSkyMesh
-    seed: 21
+    seed: 3
     speed: 0.3
     radius: 0.15
     color: "edf1f598"
@@ -22,7 +32,7 @@ mesh: [
   }
   {
     type: HexSkyMesh
-    seed: 20
+    seed: 4
     speed: 0.45
     radius: 0.2
     color: "fafcfd5d"
@@ -32,7 +42,7 @@ mesh: [
     type: HexSkyMesh
     seed: 2
     speed: 0.1
-    radius: 0.25
+    radius: 0.1
     color: "c3e1ffa2"
     divisions: 5
   }
