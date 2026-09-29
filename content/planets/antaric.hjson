@@ -1,4 +1,5 @@
 localizedName: Antaric
+
 mesh: {
   type: SunMesh
   divisions: 5
@@ -15,17 +16,11 @@ mesh: {
     517aa1
   ]
 }
-mesh: {
-  type: GenericMesh
-  color: d6dfff
-  seed: 1
-  speed: 1
-}
 
 radius: 6
 accessible: false
 visible: true
-hasAtmosphere: true
+hasAtmosphere: false
 bloom: true
 orbitSpacing: 5000
 solarSystem: antaric
