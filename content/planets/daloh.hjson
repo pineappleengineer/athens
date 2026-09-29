@@ -7,7 +7,7 @@ mesh: [
         {
         type: NoiseMesh
         seed: 1
-        radius: 1
+        radius: 0.95
         color1: "edf1f5"
         color2: "7c5d49"
         colorOct: 0.8
@@ -18,7 +18,7 @@ mesh: [
       {
         type: NoiseMesh
         seed: 2
-        radius: 1
+        radius: 0.85
         color1: "9ba1a7"
         color2: "75787c"
         colorOct: 1.5
@@ -26,6 +26,7 @@ mesh: [
         persistence: 0.5
         mag: 0.8
       }
+      //the river
       {
         type: SunMesh
         scl: 1
@@ -65,6 +66,9 @@ mesh: [
   }
 ]
 
+atmosphereColor: 2f30314b
+hasAtmosphere: true
+atmosphereRadIn: 0.5
 radius: 1
 parent: antaric
 drawOrbit: true
@@ -75,4 +79,3 @@ startSector: 0
 alwaysUnlocked: true
 solarSystem: antaric
 orbitRadius: 100
-atmosphereColor: 5252524b
