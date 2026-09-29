@@ -16,8 +16,8 @@ mesh: {
   ]
 }
 mesh: {
-  type: HexSkyMesh
-  color: d6e4ff
+  type: GenericMesh
+  color: d6dfff
   seed: 1
   speed: 1
 }
