@@ -7,7 +7,7 @@ mesh: [
         {
         type: NoiseMesh
         seed: 1
-        radius: 0.98
+        radius: 0.95
         color1: "edf1f5"
         color2: "7c5d49"
         colorOct: 0.8
@@ -18,7 +18,7 @@ mesh: [
       {
         type: NoiseMesh
         seed: 2
-        radius: 0.98
+        radius: 0.95
         color1: "9ba1a7"
         color2: "75787c"
         colorOct: 1.5
@@ -71,12 +71,12 @@ atmosphereColor: 2f30314b
 hasAtmosphere: true
 bloom: true
 radius: 1
-parent: antaric
+parent: sun
+solarSystem: sun
 drawOrbit: true
 accessible: true
 allowLaunchToNumbered: true
 defaultCore: core-fissile
 startSector: 0
 alwaysUnlocked: true
-solarSystem: antaric
 orbitRadius: 100

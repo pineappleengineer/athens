@@ -21,8 +21,8 @@ mesh: [
     type: HexSkyMesh
     speed: 3.5
     seed: 0.1
-    color: b3d7f86c
-    radius: 0.025
+    color: e6f2fd6c
+    radius: 0.05
     divisions: 5
     octaves: 1
     persistence: 1
