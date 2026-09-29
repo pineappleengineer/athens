@@ -1,0 +1,13 @@
+name: Daloh
+
+mesh: {
+    type: NoiseMesh
+    color: ffffff
+}
+
+parent: antaric
+drawOrbit: true
+accessible: true
+allowLaunchToNumbered: false
+defaultCore: core-fissile
+startSector: 0
