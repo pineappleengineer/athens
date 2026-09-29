@@ -20,8 +20,8 @@ mesh: [
   {
     type: HexSkyMesh
     speed: 1.5
-    seed: 5
-    color: ffffffff
+    seed: 1
+    color: f6f7fd5d
     radius: 0.05
     divisions: 6
     octaves: 0.1
@@ -36,7 +36,7 @@ hasAtmosphere: false
 bloom: true
 orbitSpacing: 60
 solarSystem: antaric
-orbitRadius: 16000
+orbitRadius: 10000
 parent: sun
 drawOrbit: false
 tidalLock: true
