@@ -12,3 +12,4 @@ allowLaunchToNumbered: false
 defaultCore: core-fissile
 startSector: 0
 alwaysUnlocked: true
+solarSystem: antaric
