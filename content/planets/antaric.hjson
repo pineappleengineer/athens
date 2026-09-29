@@ -13,13 +13,14 @@ mesh: {
   ]
 }
 radius: 2
-accessible: true
+accessible: false
 visible: true
 hasAtmosphere: true
 bloom: true
 orbitSpacing: 10
 solarSystem: antaric
 orbitRadius: 12000
+parent: sun
 drawOrbit: false
 tidalLock: true
 iconColor: bcefff
