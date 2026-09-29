@@ -1,5 +1,5 @@
 type: CoreBlock
-name: Core: Fissile
+localizedName: Core: Fissile
 health: 2600
 armor: 6
 description: "Core of the base, lightly armoured."

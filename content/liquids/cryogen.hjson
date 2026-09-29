@@ -1,5 +1,5 @@
 type: Liquid
-name: Cryogen
+localizedName: Cryogen
 description: "[#7f9ace]Not to be confused of Cryofluid...[]
 
 Can be collected from rains, lakes, or from ice cracks. Used as coolant in turrets, factories, and generators."

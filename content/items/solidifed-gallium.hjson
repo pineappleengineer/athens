@@ -1,5 +1,5 @@
 type: Item
-name: Solidified Gallium
+localizedName: Solidified Gallium
 description: "Used for factories, building, and ammo for certain turrets.
 
 Can be turn back into a liquid."

@@ -1,5 +1,5 @@
 type: Wall
-name: Solid Alloy Wall
+localizedName: Solid Alloy Wall
 category: defense
 description: "A dense, lightly armoured wall."
 health: 960

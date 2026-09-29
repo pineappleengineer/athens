@@ -5,11 +5,11 @@ size: 4
 category: crafting
 consumes: {
     liquids: [
-        alt-gallium/1
+        alt-gallium/0.1
     ]
     power: 0.1
 }
-outputItems: [solidifed-gallium/0.1]
+outputItems: [solidifed-gallium/1]
 
 shownPlanets: [daloh]
 research: {

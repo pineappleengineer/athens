@@ -1,5 +1,5 @@
 type: Conduit
-name: Pipe
+localizedName: Pipe
 category: liquid
 description: "Moves liquids."
 

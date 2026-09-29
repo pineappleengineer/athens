@@ -16,4 +16,4 @@ defaultCore: core-fissile
 startSector: 0
 alwaysUnlocked: true
 solarSystem: antaric
-orbitRadius: 190
+orbitRadius: 100
