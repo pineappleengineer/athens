@@ -1,21 +1,30 @@
 localizedName: Antaric
 
-mesh: {
-  type: SunMesh
-  divisions: 1
-  octaves: 1
-  persistence: 0.5
-  scl: 1
-  pow: 1
-  mag: 0.5
-  colorScale: 1.5
-  colors: [
-    95c2ec
-    7aa4cc
-    5f8ab3
-    517aa1
-  ]
-}
+mesh: [
+    {
+    type: SunMesh
+    divisions: 6
+    octaves: 1
+    persistence: 0.5
+    scl: 1
+    pow: 1
+    mag: 0.5
+    colorScale: 1.5
+    colors: [
+      95c2ec
+      7aa4cc
+      5f8ab3
+      517aa1
+    ]
+  }
+  {
+    type: HexSkyMesh
+    color: d2e4f5
+    divisions: 3
+    octaves: 1
+    persistence: 0.5
+  }
+]
 
 radius: 6
 accessible: false
