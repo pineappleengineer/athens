@@ -19,7 +19,7 @@ hasAtmosphere: true
 bloom: true
 orbitSpacing: 10
 solarSystem: antaric
-orbitRadius: 12000
+orbitRadius: 5
 parent: sun
 drawOrbit: false
 tidalLock: true
