@@ -12,10 +12,10 @@ mesh: {
     bcefff
   ]
 }
-radius: 10
+radius: 6
 accessible: false
 visible: true
-hasAtmosphere: true
+hasAtmosphere: false
 bloom: true
 orbitSpacing: 10
 solarSystem: antaric
