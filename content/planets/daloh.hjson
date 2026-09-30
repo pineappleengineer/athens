@@ -7,12 +7,13 @@ mesh: [
       {
         type: NoiseMesh
         seed: 95
-        radius: 1.6
+        radius: 1.2
         color1: edf1f5
         color2: ccdbf7
         divisions: 5
         octaves: 6
         persistence: 0.6
+        mag: 4
       }
       {
         type: NoiseMesh
@@ -23,7 +24,7 @@ mesh: [
         divisions: 5
         octaves: 6
         persistence: 0.6
-        mag: 5
+        mag: 6
       }
       //cryogenic
       {
