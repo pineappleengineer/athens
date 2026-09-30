@@ -4,16 +4,27 @@ mesh: [
   {
     type: MultiMesh
     meshes: [
-        {
+      {
         type: NoiseMesh
         seed: 95
-        radius: 0.9873
+        radius: 0.873
         color1: edf1f5
         color2: ccdbf7
         divisions: 5
         octaves: 6
         persistence: 0.6
-        mag: 0.8
+        mag: 0.3
+      }
+      {
+        type: NoiseMesh
+        seed: 95
+        radius: 0.835
+        color1: 7c5d49
+        color2: 5f4635
+        divisions: 5
+        octaves: 6
+        persistence: 0.6
+        mag: 0.5
       }
       //cryogenic
       {
@@ -56,7 +67,7 @@ mesh: [
   }
 ]
 
-atmosphereColor: 2f30314b
+atmosphereColor: 141a204b
 hasAtmosphere: true
 radius: 1
 parent: sun
@@ -68,4 +79,4 @@ allowLaunchToNumbered: true
 defaultCore: core-fissile
 startSector: 0
 alwaysUnlocked: true
-orbitRadius: 100
+orbitRadius: 10
