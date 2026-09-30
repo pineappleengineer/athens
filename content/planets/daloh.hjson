@@ -7,7 +7,7 @@ mesh: [
       {
         type: NoiseMesh
         seed: 95
-        radius: 1.4
+        radius: 1.2
         color1: edf1f5
         color2: ccdbf7
         divisions: 5
