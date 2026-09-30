@@ -48,7 +48,7 @@ mesh: [
       type: HexSkyMesh
       seed: 2.2
       speed: 0.3
-      radius: 0.15
+      radius: 0.175
       color: edf1f598
       divisions: 5
       }
@@ -64,7 +64,7 @@ mesh: [
         type: HexSkyMesh
         seed: 2.3
         speed: 0.1
-        radius: 0.175
+        radius: 0.15
         color: c3e1ffa2
         divisions: 5
       }
