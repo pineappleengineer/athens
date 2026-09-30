@@ -7,12 +7,12 @@ mesh: [
         {
         type: NoiseMesh
         seed: 1
-        radius: 0.95
-        color1: "edf1f5"
-        color2: "7c5d49"
-        colorOct: 0.8
+        radius: 0.9873
+        color1: edf1f5
+        color2: ccdbf7
+        colorOct: 2
         divisions: 5
-        persistence: 50
+        persistence: 0.5
         mag: 0.8
       }
       //cryogenic
@@ -22,9 +22,9 @@ mesh: [
         scl: 1
         colors: [
             a1bef5
-            8fb2f3
-            7ea7f3
-            6899f5
+            85abf1
+            6e9bf0
+            5e90ee
         ]
       }
     ]
@@ -35,7 +35,7 @@ mesh: [
     seed: 2.2
     speed: 0.3
     radius: 0.15
-    color: "edf1f598"
+    color: edf1f598
     divisions: 5
   }
   {
@@ -43,7 +43,7 @@ mesh: [
     seed: 2.2
     speed: 0.45
     radius: 0.2
-    color: "fafcfd5d"
+    color: fafcfd5d
     divisions: 5
   }
   {
@@ -51,7 +51,7 @@ mesh: [
     seed: 2.3
     speed: 0.1
     radius: 0.175
-    color: "c3e1ffa2"
+    color: c3e1ffa2
     divisions: 5
   }
 ]
@@ -68,4 +68,4 @@ allowLaunchToNumbered: true
 defaultCore: core-fissile
 startSector: 0
 alwaysUnlocked: true
-orbitRadius: 100
+orbitRadius: 20
