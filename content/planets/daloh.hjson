@@ -13,7 +13,7 @@ mesh: [
         divisions: 5
         octaves: 6
         persistence: 0.6
-        mag: 3
+        mag: 2
       }
       {
         type: NoiseMesh
@@ -28,15 +28,13 @@ mesh: [
       }
       //cryogenic
       {
-        type: SunMesh
+        type: NoiseMesh
         divisions: 5
-        scl: 1
-        colors: [
-            a1bef5
-            85abf1
-            6e9bf0
-            5e90ee
-        ]
+        radius: 1.6
+        seed: 94
+        color1: a1bef5
+        color2: b2c9f3
+        persistence: 0.6
       }
     ]
   }
