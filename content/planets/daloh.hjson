@@ -12,21 +12,10 @@ mesh: [
         color2: "7c5d49"
         colorOct: 0.8
         divisions: 5
-        persistence: 0.5
+        persistence: 50
         mag: 0.8
       }
-      {
-        type: NoiseMesh
-        seed: 2
-        radius: 0.95
-        color1: "9ba1a7"
-        color2: "75787c"
-        colorOct: 1.5
-        divisions: 5
-        persistence: 0.5
-        mag: 0.5
-      }
-      //the river
+      //cryogenic
       {
         type: SunMesh
         divisions: 5
@@ -43,7 +32,7 @@ mesh: [
   //clouds and cryogenic rain clouds
   {
     type: HexSkyMesh
-    seed: 2
+    seed: 2.2
     speed: 0.3
     radius: 0.15
     color: "edf1f598"
@@ -51,7 +40,7 @@ mesh: [
   }
   {
     type: HexSkyMesh
-    seed: 2.1
+    seed: 2.2
     speed: 0.45
     radius: 0.2
     color: "fafcfd5d"
@@ -59,7 +48,7 @@ mesh: [
   }
   {
     type: HexSkyMesh
-    seed: 2.2
+    seed: 2.3
     speed: 0.1
     radius: 0.175
     color: "c3e1ffa2"
@@ -69,14 +58,14 @@ mesh: [
 
 atmosphereColor: 2f30314b
 hasAtmosphere: true
-bloom: true
 radius: 1
 parent: sun
 solarSystem: sun
+orbitTime: 60
 drawOrbit: true
 accessible: true
 allowLaunchToNumbered: true
 defaultCore: core-fissile
 startSector: 0
 alwaysUnlocked: true
-orbitRadius: 30
+orbitRadius: 100
