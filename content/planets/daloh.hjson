@@ -18,13 +18,13 @@ mesh: [
       {
         type: NoiseMesh
         seed: 95
-        radius: 0.978
+        radius: 0.948
         color1: 7c5d49
         color2: 5f4635
         divisions: 5
         octaves: 6
         persistence: 0.6
-        mag: 0.5
+        mag: 0.6
       }
       //cryogenic
       {
@@ -79,4 +79,4 @@ allowLaunchToNumbered: true
 defaultCore: core-fissile
 startSector: 0
 alwaysUnlocked: true
-orbitRadius: 20
+orbitRadius: 100
