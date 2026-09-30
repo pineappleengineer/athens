@@ -45,7 +45,7 @@ visible: true
 hasAtmosphere: false
 bloom: true
 solarSystem: antaric
-orbitRadius: 65
+orbitRadius: 1000
 parent: sun
 drawOrbit: false
 tidalLock: true
