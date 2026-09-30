@@ -7,7 +7,7 @@ mesh: [
       {
         type: NoiseMesh
         seed: 95
-        radius: 1.4
+        radius: 1.7
         color1: edf1f5
         color2: ccdbf7
         divisions: 5
@@ -18,7 +18,7 @@ mesh: [
       {
         type: NoiseMesh
         seed: 95
-        radius: 1
+        radius: 1.65
         color1: 7c5d49
         color2: 5f4635
         divisions: 5
@@ -46,7 +46,7 @@ mesh: [
     meshes: [
       {
       type: HexSkyMesh
-      seed: 1.2
+      seed: 120
       speed: 0.3
       radius: 0.15
       color: edf1f598
@@ -54,7 +54,7 @@ mesh: [
       }
       {
         type: HexSkyMesh
-        seed: 1.1
+        seed: 121
         speed: 0.45
         radius: 0.2
         color: fafcfd5d
@@ -62,7 +62,7 @@ mesh: [
       }
       {
         type: HexSkyMesh
-        seed: 1.3
+        seed: 122
         speed: 0.1
         radius: 0.175
         color: c3e1ffa2
@@ -85,4 +85,4 @@ allowLaunchToNumbered: true
 defaultCore: core-fissile
 startSector: 0
 alwaysUnlocked: true
-orbitRadius: 90
+orbitRadius: 20
