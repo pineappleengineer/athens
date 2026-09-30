@@ -42,28 +42,33 @@ mesh: [
   }
   //clouds and cryogenic rain clouds
   {
-    type: HexSkyMesh
-    seed: 2.2
-    speed: 0.3
-    radius: 0.15
-    color: edf1f598
-    divisions: 5
-  }
-  {
-    type: HexSkyMesh
-    seed: 2.2
-    speed: 0.45
-    radius: 0.2
-    color: fafcfd5d
-    divisions: 5
-  }
-  {
-    type: HexSkyMesh
-    seed: 2.3
-    speed: 0.1
-    radius: 0.175
-    color: c3e1ffa2
-    divisions: 5
+    type: MultiMesh
+    meshes: [
+      {
+      type: HexSkyMesh
+      seed: 2.2
+      speed: 0.3
+      radius: 0.15
+      color: edf1f598
+      divisions: 5
+      }
+      {
+        type: HexSkyMesh
+        seed: 2.2
+        speed: 0.45
+        radius: 0.2
+        color: fafcfd5d
+        divisions: 5
+      }
+      {
+        type: HexSkyMesh
+        seed: 2.3
+        speed: 0.1
+        radius: 0.175
+        color: c3e1ffa2
+        divisions: 5
+      }
+    ]
   }
 ]
 
