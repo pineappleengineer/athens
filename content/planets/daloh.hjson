@@ -78,6 +78,7 @@ hasAtmosphere: true
 radius: 1.6
 parent: antaric
 solarSystem: antaric
+orbitOffset: 5
 orbitTime: 60
 drawOrbit: true
 accessible: true
