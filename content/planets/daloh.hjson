@@ -4,84 +4,79 @@ mesh: [
   {
     type: MultiMesh
     meshes: [
-      {
+        {
         type: NoiseMesh
-        seed: 95
-        radius: 0.9673
-        color1: edf1f5
-        color2: ccdbf7
+        seed: 1
+        radius: 0.95
+        color1: "edf1f5"
+        color2: "7c5d49"
+        colorOct: 0.8
         divisions: 5
-        octaves: 6
-        persistence: 0.6
-        mag: 0.3
+        persistence: 50
+        mag: 0.8
       }
       {
         type: NoiseMesh
-        seed: 95
-        radius: 0.948
-        color1: 7c5d49
-        color2: 5f4635
+        seed: 2
+        radius: 0.95
+        color1: "9ba1a7"
+        color2: "75787c"
+        colorOct: 1.5
         divisions: 5
-        octaves: 6
-        persistence: 0.6
-        mag: 0.6
+        persistence: 0.5
+        mag: 0.5
       }
-      //cryogenic
+      //the river
       {
         type: SunMesh
         divisions: 5
         scl: 1
         colors: [
             a1bef5
-            85abf1
-            6e9bf0
-            5e90ee
+            8fb2f3
+            7ea7f3
+            6899f5
         ]
       }
     ]
   }
   //clouds and cryogenic rain clouds
   {
-    type: MultiMesh
-    meshes: [
-      {
-      type: HexSkyMesh
-      seed: 2.2
-      speed: 0.3
-      radius: 0.175
-      color: edf1f598
-      divisions: 5
-      }
-      {
-        type: HexSkyMesh
-        seed: 2.2
-        speed: 0.45
-        radius: 0.2
-        color: fafcfd5d
-        divisions: 5
-      }
-      {
-        type: HexSkyMesh
-        seed: 2.3
-        speed: 0.1
-        radius: 0.15
-        color: c3e1ffa2
-        divisions: 5
-      }
-    ]
+    type: HexSkyMesh
+    seed: 2
+    speed: 0.3
+    radius: 0.15
+    color: "edf1f598"
+    divisions: 5
+  }
+  {
+    type: HexSkyMesh
+    seed: 2.1
+    speed: 0.45
+    radius: 0.2
+    color: "fafcfd5d"
+    divisions: 5
+  }
+  {
+    type: HexSkyMesh
+    seed: 2.2
+    speed: 0.1
+    radius: 0.175
+    color: "c3e1ffa2"
+    divisions: 5
   }
 ]
 
-atmosphereColor: 121e2b4b
+atmosphereColor: 2f30314b
 hasAtmosphere: true
+bloom: true
 radius: 1
 parent: sun
 solarSystem: sun
-orbitTime: 60
 drawOrbit: true
 accessible: true
 allowLaunchToNumbered: true
 defaultCore: core-fissile
 startSector: 0
 alwaysUnlocked: true
-orbitRadius: 50
+orbitRadius: 100
