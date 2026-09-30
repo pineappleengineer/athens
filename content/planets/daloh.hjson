@@ -7,13 +7,13 @@ mesh: [
       {
         type: NoiseMesh
         seed: 95
-        radius: 1.2
+        radius: 1.25
         color1: edf1f5
         color2: ccdbf7
         divisions: 5
         octaves: 6
         persistence: 0.6
-        mag: 3
+        mag: 2.5
       }
       //cryogenic
       {
@@ -67,6 +67,9 @@ atmosphereRadOut: 0.4
 
 sectorSize: 1
 startSector: 0
+sectorSeed: 14513
+
+prebuildBase: true
 
 visible: true
 hasAtmosphere: true
