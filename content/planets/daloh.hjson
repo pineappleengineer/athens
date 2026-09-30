@@ -73,6 +73,7 @@ mesh: [
 ]
 
 atmosphereColor: 121e2b4b
+visible: true
 hasAtmosphere: true
 radius: 1.6
 parent: antaric

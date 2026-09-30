@@ -1,8 +1,8 @@
-localizedName: Antaric and Pole
+localizedName: Antaric
 
-radius: 1
+radius: 0
 accessible: false
-visible: false
+visible: true
 hasAtmosphere: false
 bloom: false
 orbitSpacing: 70
