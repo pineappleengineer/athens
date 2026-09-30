@@ -1,3 +1,5 @@
+localizedName: Antartic A
+
 mesh: [
     {
     type: SunMesh
@@ -32,9 +34,8 @@ accessible: false
 visible: true
 hasAtmosphere: false
 bloom: true
-orbitSpacing: 60
 solarSystem: antaric
-orbitRadius: 60
+orbitRadius: 65
 parent: antaric
 drawOrbit: false
 tidalLock: true
