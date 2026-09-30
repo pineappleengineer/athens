@@ -7,7 +7,7 @@ mesh: [
       {
         type: NoiseMesh
         seed: 95
-        radius: 0.9273
+        radius: 0.9673
         color1: edf1f5
         color2: ccdbf7
         divisions: 5
@@ -18,7 +18,7 @@ mesh: [
       {
         type: NoiseMesh
         seed: 95
-        radius: 0.9
+        radius: 0.978
         color1: 7c5d49
         color2: 5f4635
         divisions: 5
@@ -67,7 +67,7 @@ mesh: [
   }
 ]
 
-atmosphereColor: 1f24294b
+atmosphereColor: 121e2b4b
 hasAtmosphere: true
 radius: 1
 parent: sun
@@ -79,4 +79,4 @@ allowLaunchToNumbered: true
 defaultCore: core-fissile
 startSector: 0
 alwaysUnlocked: true
-orbitRadius: 100
+orbitRadius: 20
