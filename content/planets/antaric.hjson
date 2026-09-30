@@ -1,44 +1,15 @@
-localizedName: Antaric
+localizedName: Antaric and Pole
 
-mesh: [
-    {
-    type: SunMesh
-    divisions: 5
-    octaves: 1
-    persistence: 0.5
-    scl: 1
-    pow: 1
-    mag: 0.5
-    colorScale: 1.5
-    colors: [
-      95c2ec
-      7aa4cc
-      5f8ab3
-      517aa1
-    ]
-  }
-  {
-    type: HexSkyMesh
-    speed: 3.5
-    seed: 0.1
-    color: e6f2fd6c
-    radius: 0.05
-    divisions: 5
-    octaves: 1
-    persistence: 1
-  }
-]
-
-radius: 6
+radius: 1
 accessible: false
-visible: true
+visible: false
 hasAtmosphere: false
-bloom: true
-orbitSpacing: 60
+bloom: false
+orbitSpacing: 70
 solarSystem: antaric
 orbitRadius: 10000
 parent: sun
 drawOrbit: false
 tidalLock: true
-iconColor: bcefff
+iconColor: d8f6ff
 icon: commandRally

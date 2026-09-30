@@ -4,79 +4,84 @@ mesh: [
   {
     type: MultiMesh
     meshes: [
-        {
+      {
         type: NoiseMesh
-        seed: 1
-        radius: 0.95
-        color1: "edf1f5"
-        color2: "7c5d49"
-        colorOct: 0.8
+        seed: 95
+        radius: 1.4
+        color1: edf1f5
+        color2: ccdbf7
         divisions: 5
-        persistence: 50
-        mag: 0.8
+        octaves: 6
+        persistence: 0.6
+        mag: 0.3
       }
       {
         type: NoiseMesh
-        seed: 2
-        radius: 0.95
-        color1: "9ba1a7"
-        color2: "75787c"
-        colorOct: 1.5
+        seed: 95
+        radius: 1
+        color1: 7c5d49
+        color2: 5f4635
         divisions: 5
-        persistence: 0.5
-        mag: 0.5
+        octaves: 6
+        persistence: 0.6
+        mag: 0.6
       }
-      //the river
+      //cryogenic
       {
         type: SunMesh
         divisions: 5
         scl: 1
         colors: [
             a1bef5
-            8fb2f3
-            7ea7f3
-            6899f5
+            85abf1
+            6e9bf0
+            5e90ee
         ]
       }
     ]
   }
   //clouds and cryogenic rain clouds
   {
-    type: HexSkyMesh
-    seed: 2
-    speed: 0.3
-    radius: 0.15
-    color: "edf1f598"
-    divisions: 5
-  }
-  {
-    type: HexSkyMesh
-    seed: 2.1
-    speed: 0.45
-    radius: 0.2
-    color: "fafcfd5d"
-    divisions: 5
-  }
-  {
-    type: HexSkyMesh
-    seed: 2.2
-    speed: 0.1
-    radius: 0.175
-    color: "c3e1ffa2"
-    divisions: 5
+    type: MultiMesh
+    meshes: [
+      {
+      type: HexSkyMesh
+      seed: 2.2
+      speed: 0.3
+      radius: 0.175
+      color: edf1f598
+      divisions: 5
+      }
+      {
+        type: HexSkyMesh
+        seed: 2.2
+        speed: 0.45
+        radius: 0.2
+        color: fafcfd5d
+        divisions: 5
+      }
+      {
+        type: HexSkyMesh
+        seed: 2.3
+        speed: 0.1
+        radius: 0.175
+        color: c3e1ffa2
+        divisions: 5
+      }
+    ]
   }
 ]
 
-atmosphereColor: 2f30314b
+atmosphereColor: 121e2b4b
 hasAtmosphere: true
-bloom: true
-radius: 1
-parent: sun
-solarSystem: sun
+radius: 1.6
+parent: antaric
+solarSystem: antaric
+orbitTime: 60
 drawOrbit: true
 accessible: true
 allowLaunchToNumbered: true
 defaultCore: core-fissile
 startSector: 0
 alwaysUnlocked: true
-orbitRadius: 100
+orbitRadius: 110
