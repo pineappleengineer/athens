@@ -13,7 +13,6 @@ mesh: [
         divisions: 5
         octaves: 6
         persistence: 0.6
-        mag: 0.3
       }
       {
         type: NoiseMesh
@@ -24,7 +23,7 @@ mesh: [
         divisions: 5
         octaves: 6
         persistence: 0.6
-        mag: 0.6
+        mag: 5
       }
       //cryogenic
       {
@@ -46,7 +45,7 @@ mesh: [
     meshes: [
       {
       type: HexSkyMesh
-      seed: 120
+      seed: 0.4
       speed: 0.3
       radius: 0.15
       color: edf1f598
@@ -54,7 +53,7 @@ mesh: [
       }
       {
         type: HexSkyMesh
-        seed: 121
+        seed: 0.1
         speed: 0.45
         radius: 0.2
         color: fafcfd5d
@@ -62,7 +61,7 @@ mesh: [
       }
       {
         type: HexSkyMesh
-        seed: 122
+        seed: 0.7
         speed: 0.1
         radius: 0.175
         color: c3e1ffa2
