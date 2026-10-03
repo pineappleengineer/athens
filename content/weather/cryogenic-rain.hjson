@@ -1,0 +1,13 @@
+type: RainWeather
+color: a4bceaff
+yspeed: 20.5
+xspeed: 5.5
+sizeMax: 30.0
+status: freezing
+sound: rain
+liquid: cryogen
+padding: 30.0
+splashTimeScale: 20.0
+sizeMin: 10.0
+density: 1300.0
+soundVol: 0.3

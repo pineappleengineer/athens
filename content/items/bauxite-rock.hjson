@@ -1,0 +1,11 @@
+type: Item
+localizedName: Bauxite Rock
+description: "Does nothing on its own.
+
+Contains [accent]aluminum and possibly small amounts of gallium[]."
+color: ad5f54
+
+shownPlanets: [daloh]
+research: {
+    planet: daloh
+}

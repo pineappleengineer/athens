@@ -1,7 +1,7 @@
 type: StaticWall
 description: "no this is not a copy from [orange]Echo[] [#5aaabd]Fleet[], gallium is contained in bauxite according to wikipedia"
-variants: 2
-variantRegions: [bauxite-wall1, bauxite-wall2]
+variants: 3
+variantRegions: [bauxite-wall1, bauxite-wall2, bauxite-wall3]
 attributes: {
     bauxite: 1
 }
