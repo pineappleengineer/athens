@@ -25,4 +25,5 @@ research: {
     planet: daloh
     root: true
     requiresUnlock: false
+    name: Daloh
 }
