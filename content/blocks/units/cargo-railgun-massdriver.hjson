@@ -1,0 +1,29 @@
+type: PayloadMassDriver
+localizedName: Cargo Railgun Massdriver
+
+category: units
+maxPayloadSize: 5
+size: 4
+group: units
+shootSound: massdriver-railgun
+shootEffect: [
+    {
+        type: MultiEffect
+        rotWithParent: true
+        effects: [
+            {
+                type: ParticleEffect
+                region: circle
+                offsetX: 8
+                offsetY: 8
+                cone: 15
+                colorInterp: sine
+                colorFrom: ffffff
+                colorTo: 00000000
+                lightColor: ffffff
+                lifetime: 100
+                length: 100
+            }
+        ]
+    }
+]
