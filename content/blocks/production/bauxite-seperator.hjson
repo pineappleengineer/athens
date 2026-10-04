@@ -1,5 +1,5 @@
 type: GenericCrafter
-description: "harvests alluminum and gallium from bauxite [#ffffff22]placeholder :3[]"
+description: "harvests alluminum and gallium from bauxite [#ffffff55]placeholder :3[]"
 
 size: 4
 category: crafting
@@ -7,14 +7,14 @@ consumes: {
     items: [
         bauxite-rock/2
     ]
-    power: 0.1
+    power: 0.5
 
 }
 outputItems: [
     allluminum/1
     ]
 outputLiquids: [
-    gallium/0.1
+    alt-gallium/0.1
 ]
 
 shownPlanets: [daloh]

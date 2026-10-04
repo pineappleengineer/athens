@@ -1,0 +1,11 @@
+type: WallCrafter
+
+
+
+size: 2
+category: production
+attribute: bauxite
+output: bauxite-rock
+consumes: [
+    power: 0.1
+]

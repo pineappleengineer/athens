@@ -7,7 +7,7 @@ consumes: {
     liquids: [
         alt-gallium/0.1
     ]
-    power: 0.1
+    power: 0.5
 }
 outputItems: [solidifed-gallium/1]
 
