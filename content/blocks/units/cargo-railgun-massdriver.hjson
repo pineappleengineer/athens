@@ -27,22 +27,22 @@ shootEffect: [
                 colorTo: 00000000
                 lightColor: ffffff
                 particles: 20
-                lifetime: 30
+                lifetime: 45
                 length: 200
             }
             {
                 type: ParticleEffect
                 baseRotation: 225
                 region: circle
-                offsetX: -10
-                offsetY: 3
+                offsetX: 10
+                offsetY: -3
                 cone: 20
                 colorInterp: sine
                 colorFrom: ffffff
                 colorTo: 00000000
                 lightColor: ffffff
                 particles: 20
-                lifetime: 30
+                lifetime: 45
                 length: 200
             }
         ]
