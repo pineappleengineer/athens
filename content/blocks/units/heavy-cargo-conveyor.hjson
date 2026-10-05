@@ -1,11 +1,11 @@
 type: PayloadConveyor
 localizedName: Heavy Cargo Conveyor
-description: "Sure, it small but, it has [accent]'heavy'[] in its name meaning it can carry [accent]buildings 2x its size.[]
+description: "Sure, it small but, it has [accent]'heavy'[] in its name meaning it can carry [accent]blocks 2x its size.[]
 
-Moves buildings forward."
-details: "I AM HEAVY PAYLOAD GUY, AND THIS, IS MY CONVEYOR, SHE CAN CARRY BUILDINGS 2 TIMES HER SIZE AND CAN MOVE UNITS LARGER THEN HERSELF.
+Moves blocks forward."
+details: "I AM HEAVY PAYLOAD GUY, AND THIS, IS MY CONVEYOR, SHE CAN CARRY BLOCKS 2 TIMES HER SIZE AND CAN MOVE UNITS LARGER THEN HERSELF.
 
-IT COST 5 SOLID ALLOYS TO BUILD THIS CONVEYOR, FOR JUST 1 SECOND.
+IT COST 5 SOLID ALLOYS TO BUILD THIS CONVEYOR, FOR JUST 0.16 SECOND.
 
 - heavy from tea for 2 if he was to play mindustry"
 
@@ -15,7 +15,7 @@ payloadLimit: 4
 requirements: [
     solid-alloy/5
 ]
-buildTime: 1
+buildTime: 10
 moveTime: 55
 size: 2
 group: payloads
@@ -23,3 +23,8 @@ group: payloads
 region: heavy-cargo-conveyor
 edgeRegion: heavy-cargo-conveyor-edge
 topRegion: heavy-cargo-conveyor-top
+
+shownPlanets: [daloh]
+research: {
+    planet: daloh
+}

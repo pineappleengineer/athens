@@ -1,0 +1,23 @@
+type: PayloadRouter
+localizedName: Heavy Cargo Router
+description: "Routes blocks to other cargo buildings, can carry [accent]blocks 2x its size.[]
+
+category: units
+interp: sine
+payloadLimit: 4
+requirements: [
+    solid-alloy/5
+]
+buildTime: 10
+moveTime: 55
+size: 2
+group: payloads
+
+region: heavy-cargo-router
+overRegion: heavy-cargo-router-over
+topRegion: heavy-cargo-router-top
+
+shownPlanets: [daloh]
+research: {
+    planet: daloh
+}
