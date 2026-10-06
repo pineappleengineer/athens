@@ -1,0 +1,11 @@
+type: Item
+localizedName: Solid Gallium Cartridge
+description: "Mostly used for turrets low-mid tier turrets, doesn't do anything by itself.
+
+[red]Filled with gunpowder. Highly explosive.[]"
+
+databaseTag: Cartridges
+
+explosiveness: 0.85
+buildable: false
+color: 9a9dbf
