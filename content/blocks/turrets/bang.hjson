@@ -1,4 +1,6 @@
 type: ItemTurret
+localizedName: Bang
+description: "Fires low tier cartridges, "
 ammoTypes: {
     solid-gallium-cartridge: {
         backRegion: cartridge-small-back
@@ -20,6 +22,7 @@ ammoTypes: {
     }
 }
 drawer: {
+    type: DrawTurret
     base: armoured-2
     top: bang-top
     preview: bang-preview
@@ -28,7 +31,7 @@ drawer: {
             type: RegionPart
             suffix: -top
             replaceOutline: true
-            layerOffset: 1.0E-4
+            layerOffset: 0.001
         }
         {
             type: RegionPart
@@ -37,7 +40,15 @@ drawer: {
             moves: [
                 {
                     type: PartMove
-                    progress: reload
+                    progress: {
+                        type: PartProgress
+                        ops: [
+                            {
+                                op: curve
+                                interp: pow3In
+                            }
+                        ]
+                    }
                     x: 3.0
                 }
             ]
@@ -58,7 +69,6 @@ drawer: {
             moveY: 0.7
         }
     ]
-  type: DrawTurret
 }
 size: 2.0
 buildVisibility: shown
