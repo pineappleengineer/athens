@@ -24,6 +24,8 @@ ammoTypes: {
         frontColor: e7e3ffff
         hitColor: c3b7ffff
         trailColor: c3b7ffff
+        hitEffect: colorSpark
+        despawnEffect: colorSpark
     }
 }
 drawer: {
