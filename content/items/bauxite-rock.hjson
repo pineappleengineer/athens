@@ -4,6 +4,7 @@ description: "Does nothing on its own.
 
 Contains [accent]aluminum and possibly small amounts of gallium[]."
 color: ad5f54
+buildable: false
 
 shownPlanets: [daloh]
 research: {

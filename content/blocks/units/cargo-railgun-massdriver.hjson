@@ -21,14 +21,14 @@ shootEffect: [
                 region: circle
                 offsetX: 10
                 offsetY: 3
-                cone: 20
+                cone: 16
                 colorInterp: sine
                 colorFrom: ffffff
                 colorTo: 00000000
                 lightColor: ffffff
                 particles: 20
-                lifetime: 45
-                length: 200
+                lifetime: 50
+                length: 130
             }
             {
                 type: ParticleEffect
@@ -36,14 +36,14 @@ shootEffect: [
                 region: circle
                 offsetX: 10
                 offsetY: -3
-                cone: 20
+                cone: 16
                 colorInterp: sine
                 colorFrom: ffffff
                 colorTo: 00000000
                 lightColor: ffffff
                 particles: 20
-                lifetime: 45
-                length: 200
+                lifetime: 50
+                length: 130
             }
         ]
     }

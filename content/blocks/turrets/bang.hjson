@@ -1,0 +1,72 @@
+type: ItemTurret
+ammoTypes: {
+    solid-gallium-cartridge: {
+        backRegion: cartridge-small-back
+        frontRegion: cartridge-small
+        speed: 10.0
+        trailLength: 5.0
+        trailWidth: 1.5
+        shootEffect: shootScepterSecondary
+        smokeEffect: shootBigSmoke2
+        type: BasicBulletType
+        height: 16.0
+        width: 10.0
+        shrinkY: 0.0
+        lifetime: 30.0
+        backColor: 7c7699ff
+        frontColor: c3bfd1ff
+        hitColor: 7b7598ff
+        trailColor: 7b7598ff
+    }
+}
+drawer: {
+    base: armoured-2
+    top: bang-top
+    preview: bang-preview
+    parts: [
+        {
+            type: RegionPart
+            suffix: -top
+            replaceOutline: true
+            layerOffset: 1.0E-4
+        }
+        {
+            type: RegionPart
+            suffix: -cartridge
+            replaceOutline: true
+            moves: [
+                {
+                    type: PartMove
+                    progress: reload
+                    x: 3.0
+                }
+            ]
+        }
+        {
+            type: RegionPart
+            suffix: -hammer
+            progress: {
+                type: PartProgress
+                ops: [
+                    {
+                        op: curve
+                        interp: pow3In
+                    }
+                ]
+            }
+            replaceOutline: true
+            moveY: 0.7
+        }
+    ]
+  type: DrawTurret
+}
+size: 2.0
+buildVisibility: shown
+outlineColor: 111317ff
+reload: 26.0
+shootSound: shootBreachCarbide
+inaccuracy: 0.2
+maxAmmo: 10.0
+shake: 0.1
+recoil: 0.5
+shootY: 0.0
