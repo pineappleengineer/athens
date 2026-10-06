@@ -1,11 +1,13 @@
 type: ItemTurret
 localizedName: Bang
-description: "Fires low tier cartridges, "
+description: "Fires low tier cartridges, does decent amount of damage to enemy units."
+
+range: 120
 ammoTypes: {
     solid-gallium-cartridge: {
         backRegion: cartridge-small-back
         frontRegion: cartridge-small
-        speed: 10.0
+        speed: 20.0
         trailLength: 5.0
         trailWidth: 1.5
         shootEffect: shootScepterSecondary
@@ -14,16 +16,19 @@ ammoTypes: {
         height: 16.0
         width: 10.0
         shrinkY: 0.0
-        lifetime: 30.0
-        backColor: 7c7699ff
-        frontColor: c3bfd1ff
-        hitColor: 7b7598ff
-        trailColor: 7b7598ff
+        lifetime: 10.0
+        damage: 12
+        pierce: true
+        pierceDamageFactor: 1
+        backColor: c3b7ffff
+        frontColor: e7e3ffff
+        hitColor: c3b7ffff
+        trailColor: c3b7ffff
     }
 }
 drawer: {
     type: DrawTurret
-    base: armoured-2
+    basePrefix: armoured-base-
     top: bang-top
     preview: bang-preview
     parts: [
@@ -50,7 +55,7 @@ drawer: {
             suffix: -hammer
             progress: reload
             replaceOutline: true
-            moveY: 0.7
+            moveY: 0.6
         }
     ]
 }

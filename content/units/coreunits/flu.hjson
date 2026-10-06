@@ -65,3 +65,8 @@ weapons: [
   y: 4.0
   }
 ]
+
+shownPlanets: [daloh]
+research: {
+    planet: daloh
+}
