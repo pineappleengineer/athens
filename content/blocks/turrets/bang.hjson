@@ -40,15 +40,7 @@ drawer: {
             moves: [
                 {
                     type: PartMove
-                    progress: {
-                        type: PartProgress
-                        ops: [
-                            {
-                                op: curve
-                                interp: pow3In
-                            }
-                        ]
-                    }
+                    progress: reload
                     x: 3.0
                 }
             ]
@@ -56,15 +48,7 @@ drawer: {
         {
             type: RegionPart
             suffix: -hammer
-            progress: {
-                type: PartProgress
-                ops: [
-                    {
-                        op: curve
-                        interp: pow3In
-                    }
-                ]
-            }
+            progress: reload
             replaceOutline: true
             moveY: 0.7
         }
