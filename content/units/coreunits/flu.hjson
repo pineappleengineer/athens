@@ -19,6 +19,7 @@ loopSound: loopHover
 targetable: true
 payloadCapacity: 256.0
 hitSize: 9.0
+immunities: [lobotomy]
 
 engines: [
   {

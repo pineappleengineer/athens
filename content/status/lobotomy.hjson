@@ -1,0 +1,10 @@
+type: StatusEffect
+localizedName: Lobotomized
+description: "Caused by a sharp object piercing through creature units or non-armoured units."
+details: me after lobotomy :laughing smth smth
+affinities: [freezing]
+transitionDamage: 0.2
+damage: 0.05
+speedMultiplier: -0.1
+color: 2b2f38
+outline: false
