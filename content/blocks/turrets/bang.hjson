@@ -71,4 +71,4 @@ inaccuracy: 0.2
 maxAmmo: 10.0
 shake: 0.1
 recoil: 0.5
-shootY: 0.0
+shootY: -0.5
