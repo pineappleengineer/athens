@@ -3,7 +3,7 @@ localizedName: Bang
 description: "Fires low tier cartridges, does decent amount of damage to enemy units. Has low ammo capacity, recommened to build a ammo box."
 details: inspired by that gun animation called 'whizzbang' or osmething
 
-range: 240
+range: 170
 ammoTypes: {
     solid-gallium-cartridge: {
         type: BasicBulletType
@@ -11,6 +11,8 @@ ammoTypes: {
         frontRegion: cartridge-small
         status: lobotomy
         speed: 20.0
+        velocityScaleRandMin: 0.9
+        velocityScaleRandMax: 1
         trailLength: 5.0
         trailWidth: 1.5
         shootEffect: shootScepterSecondary
