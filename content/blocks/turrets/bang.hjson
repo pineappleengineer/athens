@@ -1,7 +1,7 @@
 type: ItemTurret
 localizedName: Bang
 description: "Fires low tier cartridges, does decent amount of damage to enemy units. Has low ammo capacity, recommened to build a ammo box."
-details: 
+details: inspired by that gun animation called 'whizzbang' or osmething
 
 range: 240
 ammoTypes: {
@@ -9,6 +9,7 @@ ammoTypes: {
         type: BasicBulletType
         backRegion: cartridge-small-back
         frontRegion: cartridge-small
+        status: lobotomy
         speed: 20.0
         trailLength: 5.0
         trailWidth: 1.5
