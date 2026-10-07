@@ -1,6 +1,6 @@
 type: Item
 localizedName: Solidified Gallium
-description: "Used for factories, building, and ammo for certain turrets.
+description: "Used for factories, building, and turned into cartridges for certain turrets.
 
 Can be turn back into a liquid."
 color: 9a9dbf

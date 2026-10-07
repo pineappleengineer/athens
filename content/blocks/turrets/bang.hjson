@@ -4,6 +4,7 @@ description: "Fires low tier cartridges, does decent amount of damage to enemy u
 details: inspired by that gun animation called 'whizzbang' or osmething
 
 range: 170
+rotateSpeed: 2
 ammoTypes: {
     solid-gallium-cartridge: {
         type: BasicBulletType
@@ -21,7 +22,7 @@ ammoTypes: {
         width: 8.0
         shrinkY: 0.0
         lifetime: 10.0
-        damage: 15
+        damage: 23.75
         pierce: true
         pierceDamageFactor: 1
         backColor: c3b7ffff
@@ -34,7 +35,7 @@ ammoTypes: {
 }
 drawer: {
     type: DrawTurret
-    basePrefix: armoured-block-
+    basePrefix: armoured-
     top: bang-top
     preview: bang-preview
     parts: [
@@ -68,7 +69,7 @@ drawer: {
 size: 2.0
 buildVisibility: shown
 outlineColor: 111317ff
-reload: 26.0
+reload: 36.0
 shootSound: shootBreachCarbide
 inaccuracy: 0.2
 maxAmmo: 10.0

@@ -1,6 +1,6 @@
 type: Item
 localizedName: Aluminum
-description: "wh."
+description: "wh"
 color: ffffff
 
 shownPlanets: [daloh]
