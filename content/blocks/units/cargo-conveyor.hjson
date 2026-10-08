@@ -1,0 +1,23 @@
+type: PayloadConveyor
+localizedName: Cargo Conveyor
+description: "Moves small blocks forward."
+
+category: units
+interp: sine
+payloadLimit: 2
+requirements: [
+    solid-alloy/5
+]
+buildTime: 10
+moveTime: 55
+size: 2
+group: payloads
+
+region: cargo-conveyor
+edgeRegion: cargo-conveyor-edge
+topRegion: cargo-conveyor-top
+
+shownPlanets: [daloh]
+research: {
+    planet: daloh
+}

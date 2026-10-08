@@ -2,7 +2,7 @@ type: PayloadMassDriver
 localizedName: Cargo Railgun Massdriver
 
 category: units
-maxPayloadSize: 4
+maxPayloadSize: 6
 size: 4
 group: units
 

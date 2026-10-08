@@ -1,23 +1,22 @@
 type: PayloadConveyor
 localizedName: Heavy Cargo Conveyor
-description: "Sure, its small but, it has [accent]'heavy'[] in its name meaning it can carry [accent]blocks 2x its size.[]
+description: "Moves blocks forward, can carry [accent]blocks 1.5x its size.[] useful for carrying large unit parts."
 
-Moves blocks forward."
-details: "I AM HEAVY PAYLOAD GUY, AND THIS, IS MY CONVEYOR, SHE CAN CARRY BLOCKS 2 TIMES HER SIZE AND CAN MOVE UNITS LARGER THEN HERSELF.
+details: "I AM HEAVY PAYLOAD GUY, AND THIS, IS MY CONVEYOR, SHE CAN CARRY BLOCKS 1.5 TIMES HER SIZE AND CAN MOVE UNITS LARGER THEN HERSELF.
 
-IT COST 5 SOLID ALLOYS TO BUILD THIS CONVEYOR, FOR JUST 0.16 SECOND.
+IT COST 10 SOLID ALLOYS TO BUILD THIS CONVEYOR, FOR JUST 0.2 SECOND.
 
 - heavy from tea for 2 if he was to play mindustry"
 
 category: units
 interp: sine
-payloadLimit: 4
+payloadLimit: 6
 requirements: [
-    solid-alloy/5
+    solid-alloy/10
 ]
-buildTime: 10
+buildTime: 12
 moveTime: 55
-size: 2
+size: 4
 group: payloads
 
 region: heavy-cargo-conveyor
