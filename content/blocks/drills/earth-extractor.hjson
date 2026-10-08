@@ -2,6 +2,7 @@ type: AttributeCrafter
 size: 3
 attribute: earthen
 minEfficiency: 8.9999
+maxBoost: 1
 baseEfficiency: 0
 category: production
 consumesPower: true
