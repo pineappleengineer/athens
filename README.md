@@ -7,3 +7,6 @@ also inspired from Planet of Lana (steam game)
 currently in heavy development, go try echo fleet or something
 
 error png source: https://www.youtube.com/@BimmyJimmyCat
+
+
+## reminder: this mod is disconntinued
